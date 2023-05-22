@@ -729,9 +729,6 @@ h5 {
 
 }
 
-.margin_top50px{
-
-}
 .main_box2b {
   padding-top: 36px;
 }
@@ -1171,9 +1168,10 @@ input[type="submit"] {
   input[type="email"] {
     width: 445px;
   }
-  input[type="text2"] {
-    width: 445px;
-  }
+ .text2 {
+    width: 446px;
+    padding-bottom: 90px;
+}
   input[type="submit"] {
     width: 447px;
   }
@@ -1209,6 +1207,10 @@ input[type="submit"] {
   input[type="submit"] {
     width: 447px;
   }
+ .text2 {
+    width: 445px;
+    padding-bottom: 90px;
+}
 }
 
 @media (max-width: 768px) {
@@ -1228,9 +1230,7 @@ input[type="submit"] {
   input[type="email"] {
     width: 478px;
   }
-  input[type="text2"] {
-    width: 480px;
-  }
+
   input[type="submit"] {
     width: 484px;
   }
@@ -1240,6 +1240,10 @@ input[type="submit"] {
   .main_section3_box2 {
     padding-left: 0px;
   }
+  .text2 {
+    width: 482px;
+    padding-bottom: 90px;
+}
 }
 
 @media (max-width: 576px) {
@@ -1262,9 +1266,10 @@ input[type="submit"] {
   input[type="email"] {
     width: 232px;
   }
-  input[type="text2"] {
-    width: 232px;
-  }
+  .text2 {
+    width: 233px;
+    padding-bottom: 90px;
+}
 
   input[type="submit"] {
     width: 234px;
